@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    align-content: flex-start;
+    background-color: #040404;
+    background-image: url("../Images/dark-matter.png");
+    color: #ed9526
+}
+
+h1{
+    margin: 5px 0 20px 0;
+    width: 100%;
+    height: fit-content;
+}
+
+#buttons{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#buttons > *{
+    border: 2px solid #ed9526;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #050505;
+}
+
+#buttons > *:hover{
+    background-color: #3a3a3a;
+}
+
+#buttons *:hover{
+    cursor: pointer;
+}
+
+#board{
+    width: 100%;
+    margin: 20px 5px 5px 5px;
+    height: 85vh;
+    border: 2px solid #ed9526;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board > *{
+    border: 2px solid #ed9526;
+    width: 5%;
+    height: 10%;
+}
