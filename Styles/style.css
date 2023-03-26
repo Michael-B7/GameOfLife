@@ -55,8 +55,14 @@ h1{
     flex-wrap: wrap;
 }
 
-#board > *{
+#board > div > *{
     border: 2px solid #ed9526;
     width: 5%;
+}
+
+#board > div{
+    width: 100%;
     height: 10%;
+    display: flex;
+    flex-wrap: wrap;
 }
